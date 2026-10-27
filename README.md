@@ -22,6 +22,8 @@ This toolkit provides an objective comparison and turnkey Python integrations ac
 
 ## 2. Infrastructure Comparison Matrix
 
+![Anti-Bot Benchmark Chart](assets/benchmark_chart.png)
+
 | Feature | Direct IP / VPS | ProxyScrape Residential | ZenRows Scraper API |
 | :--- | :--- | :--- | :--- |
 | **Best For** | Internal APIs, open RSS | High-concurrency bulk crawling | Hard Cloudflare / JS / Captcha |
