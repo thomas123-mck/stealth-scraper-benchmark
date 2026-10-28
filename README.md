@@ -1,5 +1,10 @@
 # Stealth Scraping & Anti-Bot Infrastructure Benchmark (2026)
 
+[![PyPI version](https://img.shields.io/pypi/v/stealth-scraper-benchmark.svg?color=blue)](https://pypi.org/project/stealth-scraper-benchmark/)
+[![Python versions](https://img.shields.io/pypi/pyversions/stealth-scraper-benchmark.svg)](https://pypi.org/project/stealth-scraper-benchmark/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Tests Passing](https://img.shields.io/badge/tests-23%20passed-brightgreen.svg)](https://github.com/thomas123-mck/stealth-scraper-benchmark)
+
 Production-grade Python benchmark toolkit and implementation patterns for bypassing Cloudflare WAF, Akamai Bot Manager, Datadome, and AWS WAF.
 
 Designed for Data Engineers, Web Scraping Developers, and AI Agent builders collecting public data without getting blocked by HTTP 403 / 429.
