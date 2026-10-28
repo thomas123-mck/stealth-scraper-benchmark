@@ -39,6 +39,18 @@ This toolkit provides an objective comparison and turnkey Python integrations ac
 
 ## 3. Quickstart & Installation
 
+### Option 1: Install via pip (Recommended)
+```bash
+pip install stealth-scraper-benchmark
+
+# Run CLI directly
+stealth-benchmark --url "https://target-domain.com/catalog"
+
+# View recommendations and viral referral matrix
+stealth-benchmark --recommendations
+```
+
+### Option 2: Clone from GitHub
 ```bash
 git clone https://github.com/thomas123-mck/stealth-scraper-benchmark.git
 cd stealth-scraper-benchmark
@@ -46,15 +58,9 @@ cd stealth-scraper-benchmark
 # Optional environment variables
 export PROXYSCRAPE_PROXY_URL="http://username:password@residential.proxyscrape.com:8080"
 export ZENROWS_API_KEY="YOUR_ZENROWS_API_KEY"
-```
 
-### Running the Benchmark
-```bash
-# Run against standard targets (Cloudflare, E-commerce, IP Probe)
-python stealth_scraper_benchmark.py
-
-# Test against a custom target
-python stealth_scraper_benchmark.py --url "https://target-domain.com/catalog"
+# Run benchmark
+python -m stealth_scraper_benchmark.cli --url "https://target-domain.com/catalog"
 ```
 
 ---

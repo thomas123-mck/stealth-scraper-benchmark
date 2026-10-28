@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stealth-scraper-benchmark"
+version = "0.1.0"
+description = "Stealth Web Scraping & Anti-Bot Infrastructure Benchmark Toolkit"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Data Engineering & Web Scraping Intelligence" }
+]
+keywords = [
+    "scraping",
+    "anti-bot",
+    "benchmark",
+    "cloudflare",
+    "proxyscrape",
+    "zenrows",
+    "waf",
+    "residential-proxies",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Testing",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/thomas123-mck/stealth-scraper-benchmark"
+Repository = "https://github.com/thomas123-mck/stealth-scraper-benchmark"
+Issues = "https://github.com/thomas123-mck/stealth-scraper-benchmark/issues"
+
+[project.scripts]
+stealth-benchmark = "stealth_scraper_benchmark.cli:main"
