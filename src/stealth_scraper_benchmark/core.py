@@ -38,6 +38,11 @@ RECOMMENDATIONS: Dict[str, Dict[str, str]] = {
         "provider": "GitHub",
         "url": "https://github.com/thomas123-mck/stealth-scraper-benchmark",
     },
+    "discussions": {
+        "title": "Target Bypass Feedback & Q&A",
+        "provider": "GitHub Discussions",
+        "url": "https://github.com/thomas123-mck/stealth-scraper-benchmark/discussions/1",
+    },
 }
 
 
@@ -50,6 +55,7 @@ def format_recommendations() -> str:
         f"  - Tier 2 (Rotating Residential): ProxyScrape ({RECOMMENDATIONS['tier_2']['url']})",
         f"  - Tier 3 (Headless Unblocker API): ZenRows ({RECOMMENDATIONS['tier_3']['url']})",
         f"  - Open-Source Suite: GitHub ({RECOMMENDATIONS['open_source']['url']})",
+        f"  - Bypass Help & Target Requests: {RECOMMENDATIONS['discussions']['url']}",
         "=" * 80,
     ]
     return "\n".join(lines)

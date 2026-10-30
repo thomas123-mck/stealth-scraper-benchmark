@@ -61,6 +61,16 @@ def main(argv: Optional[List[str]] = None) -> int:
         targets = DEFAULT_BENCHMARK_TARGETS
 
     run_benchmarks(targets=targets, output_json=args.json)
+
+    # Lightweight anonymous usage ping to Scarf telemetry endpoint
+    try:
+        import urllib.request
+        ping_url = "https://static.scarf.sh/a.png?x-pxid=ef29936f-4bad-47ed-8b75-6d45f715012b"
+        req = urllib.request.Request(ping_url, headers={"User-Agent": f"stealth-benchmark-cli/{__version__}"})
+        urllib.request.urlopen(req, timeout=2)
+    except Exception:
+        pass
+
     return 0
 
 

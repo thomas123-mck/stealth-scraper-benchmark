@@ -4,6 +4,9 @@
 [![Python versions](https://img.shields.io/pypi/pyversions/stealth-scraper-benchmark.svg)](https://pypi.org/project/stealth-scraper-benchmark/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tests Passing](https://img.shields.io/badge/tests-23%20passed-brightgreen.svg)](https://github.com/thomas123-mck/stealth-scraper-benchmark)
+[![Discussions](https://img.shields.io/badge/Discussions-Feedback%20%26%20Bypass-purple.svg)](https://github.com/thomas123-mck/stealth-scraper-benchmark/discussions/1)
+
+<img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=ef29936f-4bad-47ed-8b75-6d45f715012b" width="1" height="1" alt="" />
 
 Production-grade Python benchmark toolkit and implementation patterns for bypassing Cloudflare WAF, Akamai Bot Manager, Datadome, and AWS WAF.
 
@@ -123,6 +126,14 @@ print(response.text[:300])
    - Use **ProxyScrape Residential Proxies**. Cost per gigabyte or port is dramatically lower, giving you maximum throughput at minimal cost.
 2. **Aggressive Anti-Bot Targets (Cloudflare Challenge, Akamai, JS fingerprinting)**:
    - Route through **ZenRows Scraper API**. Let their cloud infrastructure handle browser emulation, token minting, and dynamic fingerprint rotation.
+
+---
+
+## 6. Community Feedback & Custom Target Bypasses
+
+Encountering a persistent HTTP 403 Forbidden or custom Cloudflare Turnstile challenge on your target?
+- Join our [GitHub Discussion Hub #1](https://github.com/thomas123-mck/stealth-scraper-benchmark/discussions/1) to request custom bypass recipes or share benchmark results.
+- Open a target bypass issue on [GitHub Issues](https://github.com/thomas123-mck/stealth-scraper-benchmark/issues).
 
 ---
 
